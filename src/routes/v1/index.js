@@ -2,7 +2,7 @@ const express = require('express');
 const authRoute = require('./auth.route');
 const userRoute = require('./user.route');
 const docsRoute = require('./docs.route');
-const proxyRouter = require('./proxy.route');
+const newsRouter = require('./news.route');
 const config = require('../../config/config');
 
 const router = express.Router();
@@ -37,6 +37,6 @@ if (config.env === 'development') {
   });
 }
 
-router.use('/proxy', proxyRouter);
+router.use('/news', newsRouter);
 
 module.exports = router;

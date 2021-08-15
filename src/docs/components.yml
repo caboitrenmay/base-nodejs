@@ -64,6 +64,30 @@ components:
         pubDate: Sun, 15 Aug 2021 10:01:46 +0700
         content: content.
 
+    Rss:
+      type: object
+      properties:
+        id:
+          type: string
+        link:
+          type: string
+          format: link
+        name:
+          type: string
+        source:
+          type: string
+        active:
+          type: boolean
+        editorChoice:
+          type: boolean
+      example:
+        id: 5ebac534954b54139806c112
+        link: https://vnexpress.net/rss/tin-moi-nhat.rss
+        name: Trang chủ
+        source: vnexpress
+        active: true
+        editorChoice: false
+
   responses:
     DuplicateEmail:
       description: Email already taken
