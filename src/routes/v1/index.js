@@ -2,6 +2,7 @@ const express = require('express');
 const authRoute = require('./auth.route');
 const userRoute = require('./user.route');
 const docsRoute = require('./docs.route');
+const proxyRouter = require('./proxy.route');
 const config = require('../../config/config');
 
 const router = express.Router();
@@ -35,5 +36,7 @@ if (config.env === 'development') {
     router.use(route.path, route.route);
   });
 }
+
+router.use('/proxy', proxyRouter);
 
 module.exports = router;

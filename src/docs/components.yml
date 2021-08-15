@@ -47,6 +47,23 @@ components:
         message:
           type: string
 
+    NewsFeed:
+      properties:
+        title:
+          type: string
+        link:
+          type: string
+          format: link
+        pubDate:
+          type: string
+        content:
+          type: string
+      example:
+        id: title
+        link: https://vnexpress.net
+        pubDate: Sun, 15 Aug 2021 10:01:46 +0700
+        content: content.
+
   responses:
     DuplicateEmail:
       description: Email already taken
