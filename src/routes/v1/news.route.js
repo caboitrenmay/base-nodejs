@@ -2,20 +2,24 @@ const express = require('express');
 const validate = require('../../middlewares/validate');
 const { newsValidation } = require('../../validations');
 const { newsController } = require('../../controllers');
+const auth = require('../../middlewares/auth');
 
 const router = express.Router();
 
-router.get('/feed', validate(newsValidation.getData), newsController.getNewsFeed);
+router
+  .route('/feed')
+  .get(newsController.getEditorRss)
+  .post(validate(newsValidation.getNewsFeed), newsController.getNewsFeed);
 
 router
   .route('/rss')
-  .get(validate(newsValidation.getRss), newsController.getAllRss)
-  .post(validate(newsValidation.createRss), newsController.createRss);
+  .get(auth(), validate(newsValidation.getRss), newsController.getAllRss)
+  .post(auth(), validate(newsValidation.createRss), newsController.createRss);
 
 router
   .route('/:id')
-  .patch(validate(newsValidation.updateRss), newsController.updateRss)
-  .delete(validate(newsValidation.deleteRss), newsController.deleteRss);
+  .patch(auth('manageUsers'), validate(newsValidation.updateRss), newsController.updateRss)
+  .delete(auth('manageUsers'), validate(newsValidation.deleteRss), newsController.deleteRss);
 
 module.exports = router;
 
@@ -30,15 +34,75 @@ module.exports = router;
  * @swagger
  * /news/feed:
  *   get:
- *     summary: Proxy get news feed
- *     description: Proxy get news feed.
+ *     summary: Get editor choice rss
+ *     description: Everyone can retrieve editor choice rss.
  *     tags: [News]
  *     parameters:
  *       - in: query
- *         name: proxy
+ *         name: sortBy
  *         schema:
  *           type: string
- *         description: Url
+ *         description: sort by query in the form of field:desc/asc (ex. name:asc)
+ *       - in: query
+ *         name: limit
+ *         schema:
+ *           type: integer
+ *           minimum: 1
+ *         default: 10
+ *         description: Maximum number of rss
+ *       - in: query
+ *         name: page
+ *         schema:
+ *           type: integer
+ *           minimum: 1
+ *           default: 1
+ *         description: Page number
+ *     responses:
+ *       "200":
+ *         description: OK
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 results:
+ *                   type: array
+ *                   items:
+ *                     $ref: '#/components/schemas/Rss'
+ *                 page:
+ *                   type: integer
+ *                   example: 1
+ *                 limit:
+ *                   type: integer
+ *                   example: 10
+ *                 totalPages:
+ *                   type: integer
+ *                   example: 1
+ *                 totalResults:
+ *                   type: integer
+ *                   example: 1
+ *       "401":
+ *         $ref: '#/components/responses/Unauthorized'
+ *       "403":
+ *         $ref: '#/components/responses/Forbidden'
+ *
+ *   post:
+ *     summary: Proxy get news feed
+ *     description: Proxy get news feed.
+ *     tags: [News]
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required:
+ *               - proxy
+ *             properties:
+ *               proxy:
+ *                 type: string
+ *             example:
+ *               proxy: https://vnexpress.net/rss/tin-moi-nhat.rss
  *     responses:
  *       "200":
  *         description: OK

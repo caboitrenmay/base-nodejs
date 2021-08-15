@@ -2,17 +2,26 @@ const httpStatus = require('http-status');
 const pick = require('../utils/pick');
 const catchAsync = require('../utils/catchAsync');
 const { proxyService, rssService } = require('../services');
-const logger = require('../config/logger');
 
 const getNewsFeed = catchAsync(async (req, res) => {
-  const rssUrl = req.query.proxy;
-  logger.info('proxy: ', rssUrl);
+  const rssUrl = req.body.proxy;
   const result = await proxyService.parseRss(rssUrl);
+  res.send(result);
+});
+
+const getEditorRss = catchAsync(async (req, res) => {
+  const filter = { editorChoice: true };
+  // eslint-disable-next-line no-console
+  console.log('filter: ', filter);
+  const options = pick(req.query, ['sortBy', 'limit', 'page']);
+  const result = await rssService.queryRss(filter, options);
   res.send(result);
 });
 
 const getAllRss = catchAsync(async (req, res) => {
   const filter = pick(req.query, ['name', 'source']);
+  // eslint-disable-next-line no-console
+  console.log('filter: ', filter);
   const options = pick(req.query, ['sortBy', 'limit', 'page']);
   const result = await rssService.queryRss(filter, options);
   res.send(result);
@@ -35,6 +44,7 @@ const deleteRss = catchAsync(async (req, res) => {
 
 module.exports = {
   getNewsFeed,
+  getEditorRss,
   getAllRss,
   createRss,
   updateRss,

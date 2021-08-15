@@ -2,7 +2,7 @@ const Joi = require('joi');
 const { objectId } = require('./custom.validation');
 
 const getNewsFeed = {
-  query: Joi.object().keys({
+  body: Joi.object().keys({
     proxy: Joi.string().required(),
   }),
 };
