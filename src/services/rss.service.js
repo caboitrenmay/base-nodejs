@@ -63,8 +63,7 @@ const deleteRssById = async (id) => {
   if (!rss) {
     throw new ApiError(httpStatus.NOT_FOUND, 'Rss not found');
   }
-  // await rss.remove();
-  await updateRssById(id, { active: false });
+  await rss.remove();
   return rss;
 };
 

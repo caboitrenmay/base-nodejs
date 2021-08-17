@@ -22,6 +22,8 @@ const createRss = {
     link: Joi.string().required(),
     source: Joi.string().required(),
     name: Joi.string().required(),
+    active: Joi.bool(),
+    editorChoice: Joi.bool(),
   }),
 };
 
@@ -34,6 +36,8 @@ const updateRss = {
       link: Joi.string(),
       source: Joi.string(),
       name: Joi.string(),
+      active: Joi.bool(),
+      editorChoice: Joi.bool(),
     })
     .min(1),
 };
