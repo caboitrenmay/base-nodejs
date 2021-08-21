@@ -67,10 +67,21 @@ const deleteRssById = async (id) => {
   return rss;
 };
 
+/**
+ * Query distinct source
+ */
+const querySource = async () => {
+  const sources = await Rss.find({ active: true }).distinct('source');
+  // eslint-disable-next-line no-console
+  console.log('sources: ', sources);
+  return sources;
+};
+
 module.exports = {
   createRss,
   queryRss,
   getRssById,
   updateRssById,
   deleteRssById,
+  querySource,
 };

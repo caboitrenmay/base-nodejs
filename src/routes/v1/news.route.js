@@ -11,13 +11,15 @@ router
   .get(newsController.getEditorRss)
   .post(validate(newsValidation.getNewsFeed), newsController.getNewsFeed);
 
+router.route('/feed/source').get(newsController.getFeedSource);
+
 router
   .route('/rss')
-  .get(auth(), validate(newsValidation.getRss), newsController.getAllRss)
+  .get(auth(), newsController.getAllRss)
   .post(auth(), validate(newsValidation.createRss), newsController.createRss);
 
 router
-  .route('/:id')
+  .route('/rss/:id')
   .patch(auth('manageUsers'), validate(newsValidation.updateRss), newsController.updateRss)
   .delete(auth('manageUsers'), validate(newsValidation.deleteRss), newsController.deleteRss);
 
@@ -127,6 +129,36 @@ module.exports = router;
  *                 link:
  *                   type: string
  *                   example: link
+ *       "401":
+ *         $ref: '#/components/responses/Unauthorized'
+ *       "403":
+ *         $ref: '#/components/responses/Forbidden'
+ */
+
+/**
+ * @swagger
+ * /news/feed/source:
+ *   get:
+ *     summary: Get rss source
+ *     description: Get rss source.
+ *     tags: [News]
+ *     responses:
+ *       "200":
+ *         description: OK
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 results:
+ *                   type: array
+ *                   items:
+ *                     name:
+ *                       type: string
+ *                       example: bbc
+ *                     source:
+ *                       type: string
+ *                       example: bbc
  *       "401":
  *         $ref: '#/components/responses/Unauthorized'
  *       "403":

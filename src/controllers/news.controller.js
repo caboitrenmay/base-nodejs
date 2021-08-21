@@ -10,7 +10,11 @@ const getNewsFeed = catchAsync(async (req, res) => {
 });
 
 const getEditorRss = catchAsync(async (req, res) => {
-  const filter = { editorChoice: true };
+  let filter = { editorChoice: true };
+  if (req.query.source) {
+    filter = { source: req.query.source };
+  }
+  filter = { ...filter, active: true };
   // eslint-disable-next-line no-console
   console.log('filter: ', filter);
   const options = pick(req.query, ['sortBy', 'limit', 'page']);
@@ -42,6 +46,11 @@ const deleteRss = catchAsync(async (req, res) => {
   res.status(httpStatus.NO_CONTENT).send();
 });
 
+const getFeedSource = catchAsync(async (req, res) => {
+  const sources = await rssService.querySource();
+  res.send(sources);
+});
+
 module.exports = {
   getNewsFeed,
   getEditorRss,
@@ -49,4 +58,5 @@ module.exports = {
   createRss,
   updateRss,
   deleteRss,
+  getFeedSource,
 };
