@@ -14,3 +14,4 @@ RUN yarn global add pm2
 COPY --chown=node:node . .
 
 EXPOSE 3000
+CMD [ "yarn", "start" ]
