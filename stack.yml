@@ -3,12 +3,12 @@ version: '3'
 services:
   mongo:
     image: mongo
-    restart: always
+    restart: on-failure
     ports:
       - 27017:27017
 
   mongo-express:
     image: mongo-express
-    restart: always
+    restart: on-failure
     ports:
       - 8081:8081
