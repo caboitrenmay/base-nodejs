@@ -1,0 +1,67 @@
+[
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://cafef.vn/trang-chu.rss",
+    "name": "Trang chủ",
+    "source": "cafef"
+  },
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://cafef.vn/thoi-su.rss",
+    "name": "Thời sự",
+    "source": "cafef"
+  },
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://cafef.vn/thi-truong-chung-khoan.rss",
+    "name": "Thị trường chứng khoán",
+    "source": "cafef"
+  },
+
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://cafef.vn/bat-dong-san.rss",
+    "name": "Bất động sản",
+    "source": "cafef"
+  },
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://cafef.vn/doanh-nghiep.rss",
+    "name": "Doanh nghiệp",
+    "source": "cafef"
+  },
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://cafef.vn/tai-chinh-ngan-hang.rss",
+    "name": "Tài chính - Ngân hàng",
+    "source": "cafef"
+  },
+
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://cafef.vn/tai-chinh-quoc-te.rss",
+    "name": "Tài chính quốc tế",
+    "source": "cafef"
+  },
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://cafef.vn/vi-mo-dau-tu.rss",
+    "name": "Kinh tế vĩ mô",
+    "source": "cafef"
+  },
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://cafef.vn/hang-hoa-nguyen-lieu.rss",
+    "name": "Hàng hóa - Nguyên liệu",
+    "source": "cafef"
+  }
+]
