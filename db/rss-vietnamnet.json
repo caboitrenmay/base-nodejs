@@ -1,0 +1,135 @@
+[
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://vietnamnet.vn/rss/tin-moi-nong.rss",
+    "name": "Tin mới nóng",
+    "source": "VietNamNet"
+  },
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://vietnamnet.vn/rss/tin-moi-nhat.rss",
+    "name": "Tin mới nhất",
+    "source": "VietNamNet"
+  },
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://vietnamnet.vn/rss/thoi-su-chinh-tri.rss",
+    "name": "Chính trị",
+    "source": "VietNamNet"
+  },
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://vietnamnet.vn/rss/talkshow.rss",
+    "name": "Talkshow",
+    "source": "VietNamNet"
+  },
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://vietnamnet.vn/rss/thoi-su.rss",
+    "name": "Thời sự",
+    "source": "VietNamNet"
+  },
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://vietnamnet.vn/rss/kinh-doanh.rss",
+    "name": "Kinh doanh",
+    "source": "VietNamNet"
+  },
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://vietnamnet.vn/rss/giai-tri.rss",
+    "name": "Giải trí",
+    "source": "VietNamNet"
+  },
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://vietnamnet.vn/rss/the-gioi.rss",
+    "name": "Thế giới",
+    "source": "VietNamNet"
+  },
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://vietnamnet.vn/rss/giao-duc.rss",
+    "name": "Giáo dục",
+    "source": "VietNamNet"
+  },
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://vietnamnet.vn/rss/doi-song.rss",
+    "name": "Đời sống",
+    "source": "VietNamNet"
+  },
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://vietnamnet.vn/rss/phap-luat.rss",
+    "name": "Pháp luật",
+    "source": "VietNamNet"
+  },
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://vietnamnet.vn/rss/the-thao.rss",
+    "name": "Thể thao",
+    "source": "VietNamNet"
+  },
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://vietnamnet.vn/rss/cong-nghe.rss",
+    "name": "Công nghệ",
+    "source": "VietNamNet"
+  },
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://vietnamnet.vn/rss/suc-khoe.rss",
+    "name": "Sức khỏe",
+    "source": "VietNamNet"
+  },
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://vietnamnet.vn/rss/bat-dong-san.rss",
+    "name": "Bất động sản",
+    "source": "VietNamNet"
+  },
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://vietnamnet.vn/rss/ban-doc.rss",
+    "name": "Bạn đọc",
+    "source": "VietNamNet"
+  },
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://vietnamnet.vn/rss/tuanvietnam.rss",
+    "name": "Tuần Việt Nam",
+    "source": "VietNamNet"
+  },
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://vietnamnet.vn/rss/oto-xe-may.rss",
+    "name": "Xe",
+    "source": "VietNamNet"
+  },
+  {
+    "active": true,
+    "editorChoice": false,
+    "link": "https://vietnamnet.vn/rss/goc-nhin-thang.rss",
+    "name": "Góc nhìn thẳng",
+    "source": "VietNamNet"
+  }
+]

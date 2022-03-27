@@ -16,7 +16,7 @@ router.route('/feed/source').get(newsController.getFeedSource);
 router
   .route('/rss')
   .get(auth(), newsController.getAllRss)
-  .post(auth(), validate(newsValidation.createRss), newsController.createRss);
+  .post(auth('manageUsers'), validate(newsValidation.createRss), newsController.createRss);
 
 router
   .route('/rss/:id')
