@@ -4,8 +4,7 @@ const config = require('./config/config');
 const logger = require('./config/logger');
 
 let server;
-// eslint-disable-next-line no-console
-console.log('config:', config);
+logger.debug(`Load config from: ${JSON.stringify(config, null, 2)}`);
 mongoose.connect(config.mongoose.url, config.mongoose.options).then(() => {
   logger.info('Connected to MongoDB');
   server = app.listen(config.port, () => {

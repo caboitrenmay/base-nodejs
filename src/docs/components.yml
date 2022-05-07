@@ -35,9 +35,9 @@ components:
       type: object
       properties:
         access:
-          $ref: '#/components/schemas/Token'
+          $ref: "#/components/schemas/Token"
         refresh:
-          $ref: '#/components/schemas/Token'
+          $ref: "#/components/schemas/Token"
 
     Error:
       type: object
@@ -47,7 +47,7 @@ components:
         message:
           type: string
 
-    NewsFeed:
+    Feed:
       properties:
         title:
           type: string
@@ -59,7 +59,7 @@ components:
         content:
           type: string
       example:
-        id: title
+        title: title
         link: https://vnexpress.net
         pubDate: Sun, 15 Aug 2021 10:01:46 +0700
         content: content.
@@ -69,7 +69,7 @@ components:
       properties:
         id:
           type: string
-        link:
+        url:
           type: string
           format: link
         name:
@@ -82,7 +82,7 @@ components:
           type: boolean
       example:
         id: 5ebac534954b54139806c112
-        link: https://vnexpress.net/rss/tin-moi-nhat.rss
+        url: https://vnexpress.net/rss/tin-moi-nhat.rss
         name: Trang chủ
         source: vnexpress
         active: true
@@ -94,7 +94,7 @@ components:
       content:
         application/json:
           schema:
-            $ref: '#/components/schemas/Error'
+            $ref: "#/components/schemas/Error"
           example:
             code: 400
             message: Email already taken
@@ -103,7 +103,7 @@ components:
       content:
         application/json:
           schema:
-            $ref: '#/components/schemas/Error'
+            $ref: "#/components/schemas/Error"
           example:
             code: 401
             message: Please authenticate
@@ -112,7 +112,7 @@ components:
       content:
         application/json:
           schema:
-            $ref: '#/components/schemas/Error'
+            $ref: "#/components/schemas/Error"
           example:
             code: 403
             message: Forbidden
@@ -121,7 +121,7 @@ components:
       content:
         application/json:
           schema:
-            $ref: '#/components/schemas/Error'
+            $ref: "#/components/schemas/Error"
           example:
             code: 404
             message: Not found

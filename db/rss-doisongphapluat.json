@@ -2,14 +2,14 @@
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.doisongphapluat.com/trang-chu.rss",
+    "url": "https://www.doisongphapluat.com/trang-chu.rss",
     "name": "Trang chủ",
     "source": "doisongphapluat"
   },
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.doisongphapluat.com/rss/tin-tuc.rss",
+    "url": "https://www.doisongphapluat.com/rss/tin-tuc.rss",
     "name": "Tin tức",
     "source": "doisongphapluat"
   },
@@ -17,14 +17,14 @@
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.doisongphapluat.com/rss/doi-song.rss",
+    "url": "https://www.doisongphapluat.com/rss/doi-song.rss",
     "name": "Đời sống",
     "source": "doisongphapluat"
   },
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.doisongphapluat.com/rss/phap-luat.rss",
+    "url": "https://www.doisongphapluat.com/rss/phap-luat.rss",
     "name": "Pháp luật",
     "source": "doisongphapluat"
   },
@@ -32,14 +32,14 @@
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.doisongphapluat.com/rss/the-thao.rss",
+    "url": "https://www.doisongphapluat.com/rss/the-thao.rss",
     "name": "Thể thao",
     "source": "doisongphapluat"
   },
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.doisongphapluat.com/rss/giai-tri.rss",
+    "url": "https://www.doisongphapluat.com/rss/giai-tri.rss",
     "name": "Giải trí",
     "source": "doisongphapluat"
   },
@@ -47,7 +47,7 @@
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.doisongphapluat.com/rss/can-biet.rss",
+    "url": "https://www.doisongphapluat.com/rss/can-biet.rss",
     "name": "Cần biết",
     "source": "doisongphapluat"
   },
@@ -55,14 +55,14 @@
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.doisongphapluat.com/rss/kinh-doanh.rss",
+    "url": "https://www.doisongphapluat.com/rss/kinh-doanh.rss",
     "name": "Kinh doanh",
     "source": "doisongphapluat"
   },
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.doisongphapluat.com/rss/giao-duc.rss",
+    "url": "https://www.doisongphapluat.com/rss/giao-duc.rss",
     "name": "Giáo dục pháp luật",
     "source": "doisongphapluat"
   },
@@ -70,14 +70,14 @@
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.doisongphapluat.com/rss/video.rss",
+    "url": "https://www.doisongphapluat.com/rss/video.rss",
     "name": "Video",
     "source": "doisongphapluat"
   },
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.doisongphapluat.com/rss/xa-hoi.rss",
+    "url": "https://www.doisongphapluat.com/rss/xa-hoi.rss",
     "name": "Xã hội",
     "source": "doisongphapluat"
   }

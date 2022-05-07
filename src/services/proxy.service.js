@@ -3,9 +3,9 @@ const Parser = require('rss-parser');
 const parser = new Parser();
 
 /**
- * Login with username and password
+ * Get all news feed.
  * @param {string} rssUrl
- * @returns {Promise<News>}
+ * @returns {Promise<Feeds>}
  */
 const parseRss = async (rssUrl) => {
   const data = await parser.parseURL(rssUrl);

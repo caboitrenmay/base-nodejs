@@ -3,7 +3,7 @@ const { toJSON, paginate } = require('./plugins');
 
 const rssSchema = mongoose.Schema(
   {
-    link: {
+    url: {
       type: String,
       required: true,
       index: true,
@@ -41,8 +41,8 @@ rssSchema.plugin(paginate);
  * @param {ObjectId} [excludeRssId] - The id of the user to be excluded
  * @returns {Promise<boolean>}
  */
-rssSchema.statics.isLinkTaken = async function (link, excludeRssId) {
-  const rss = await this.findOne({ link, _id: { $ne: excludeRssId } });
+rssSchema.statics.isUrlTaken = async function (url, excludeRssId) {
+  const rss = await this.findOne({ url, _id: { $ne: excludeRssId } });
   return !!rss;
 };
 

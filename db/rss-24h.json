@@ -2,28 +2,28 @@
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.24h.com.vn/upload/rss/trangchu24h.rss",
+    "url": "https://www.24h.com.vn/upload/rss/trangchu24h.rss",
     "name": "Trang chủ",
     "source": "24h.com.vn"
   },
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.24h.com.vn/upload/rss/tintuctrongngay.rss",
+    "url": "https://www.24h.com.vn/upload/rss/tintuctrongngay.rss",
     "name": "Tin tức trong ngày",
     "source": "24h.com.vn"
   },
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.24h.com.vn/upload/rss/bongda.rss",
+    "url": "https://www.24h.com.vn/upload/rss/bongda.rss",
     "name": "Bóng đá",
     "source": "24h.com.vn"
   },
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.24h.com.vn/upload/rss/anninhhinhsu.rss",
+    "url": "https://www.24h.com.vn/upload/rss/anninhhinhsu.rss",
     "name": "An ninh - Hình sự",
     "source": "24h.com.vn"
   },
@@ -31,28 +31,28 @@
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.24h.com.vn/upload/rss/thoitrang.rss",
+    "url": "https://www.24h.com.vn/upload/rss/thoitrang.rss",
     "name": "Thời trang",
     "source": "24h.com.vn"
   },
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.24h.com.vn/upload/rss/thoitranghitech.rss",
+    "url": "https://www.24h.com.vn/upload/rss/thoitranghitech.rss",
     "name": "Thời trang Hi-tech",
     "source": "24h.com.vn"
   },
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.24h.com.vn/upload/rss/taichinhbatdongsan.rss",
+    "url": "https://www.24h.com.vn/upload/rss/taichinhbatdongsan.rss",
     "name": "Tài chính – Bất động sản",
     "source": "24h.com.vn"
   },
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.24h.com.vn/upload/rss/amthuc.rss",
+    "url": "https://www.24h.com.vn/upload/rss/amthuc.rss",
     "name": "Ẩm thực",
     "source": "24h.com.vn"
   },
@@ -60,28 +60,28 @@
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.24h.com.vn/upload/rss/lamdep.rss",
+    "url": "https://www.24h.com.vn/upload/rss/lamdep.rss",
     "name": "Làm đẹp",
     "source": "24h.com.vn"
   },
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.24h.com.vn/upload/rss/phim.rss",
+    "url": "https://www.24h.com.vn/upload/rss/phim.rss",
     "name": "Phim",
     "source": "24h.com.vn"
   },
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.24h.com.vn/upload/rss/giaoducduhoc.rss",
+    "url": "https://www.24h.com.vn/upload/rss/giaoducduhoc.rss",
     "name": "Giáo dục - du học",
     "source": "24h.com.vn"
   },
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.24h.com.vn/upload/rss/bantrecuocsong.rss",
+    "url": "https://www.24h.com.vn/upload/rss/bantrecuocsong.rss",
     "name": "Bạn trẻ - Cuộc sống",
     "source": "24h.com.vn"
   },
@@ -89,28 +89,28 @@
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.24h.com.vn/upload/rss/canhacmtv.rss",
+    "url": "https://www.24h.com.vn/upload/rss/canhacmtv.rss",
     "name": "Ca nhạc - MTV",
     "source": "24h.com.vn"
   },
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.24h.com.vn/upload/rss/thethao.rss",
+    "url": "https://www.24h.com.vn/upload/rss/thethao.rss",
     "name": "Thể thao",
     "source": "24h.com.vn"
   },
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.24h.com.vn/upload/rss/phithuongkyquac.rss",
+    "url": "https://www.24h.com.vn/upload/rss/phithuongkyquac.rss",
     "name": "Phi thường - kỳ quặc",
     "source": "24h.com.vn"
   },
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.24h.com.vn/upload/rss/congnghethongtin.rss",
+    "url": "https://www.24h.com.vn/upload/rss/congnghethongtin.rss",
     "name": "Công nghệ thông tin",
     "source": "24h.com.vn"
   },
@@ -118,35 +118,35 @@
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.24h.com.vn/upload/rss/oto.rss",
+    "url": "https://www.24h.com.vn/upload/rss/oto.rss",
     "name": "Ô tô",
     "source": "24h.com.vn"
   },
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.24h.com.vn/upload/rss/thitruongtieudung.rss",
+    "url": "https://www.24h.com.vn/upload/rss/thitruongtieudung.rss",
     "name": "Thị trường - Tiêu dùng",
     "source": "24h.com.vn"
   },
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.24h.com.vn/upload/rss/dulich.rss",
+    "url": "https://www.24h.com.vn/upload/rss/dulich.rss",
     "name": "Du lịch",
     "source": "24h.com.vn"
   },
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.24h.com.vn/upload/rss/suckhoedoisong.rss",
+    "url": "https://www.24h.com.vn/upload/rss/suckhoedoisong.rss",
     "name": "Sức khỏe đời sống",
     "source": "24h.com.vn"
   },
   {
     "active": true,
     "editorChoice": false,
-    "link": "https://www.24h.com.vn/upload/rss/cuoi24h.rss",
+    "url": "https://www.24h.com.vn/upload/rss/cuoi24h.rss",
     "name": "Cười 24h",
     "source": "24h.com.vn"
   }

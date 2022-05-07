@@ -6,22 +6,19 @@ const auth = require('../../middlewares/auth');
 
 const router = express.Router();
 
-router
-  .route('/feed')
-  .get(newsController.getEditorRss)
-  .post(validate(newsValidation.getNewsFeed), newsController.getNewsFeed);
-
-router.route('/feed/source').get(newsController.getFeedSource);
+router.get('/source', newsController.getNewsSource);
 
 router
   .route('/rss')
   .get(auth(), newsController.getAllRss)
   .post(auth('manageUsers'), validate(newsValidation.createRss), newsController.createRss);
-
 router
   .route('/rss/:id')
   .patch(auth('manageUsers'), validate(newsValidation.updateRss), newsController.updateRss)
   .delete(auth('manageUsers'), validate(newsValidation.deleteRss), newsController.deleteRss);
+router.get('/rss/editor', newsController.getEditorRss);
+
+router.post('/feed', validate(newsValidation.getNewsFeed), newsController.getNewsFeed);
 
 module.exports = router;
 
@@ -34,110 +31,7 @@ module.exports = router;
 
 /**
  * @swagger
- * /news/feed:
- *   get:
- *     summary: Get editor choice rss
- *     description: Everyone can retrieve editor choice rss.
- *     tags: [News]
- *     parameters:
- *       - in: query
- *         name: sortBy
- *         schema:
- *           type: string
- *         description: sort by query in the form of field:desc/asc (ex. name:asc)
- *       - in: query
- *         name: limit
- *         schema:
- *           type: integer
- *           minimum: 1
- *         default: 10
- *         description: Maximum number of rss
- *       - in: query
- *         name: page
- *         schema:
- *           type: integer
- *           minimum: 1
- *           default: 1
- *         description: Page number
- *     responses:
- *       "200":
- *         description: OK
- *         content:
- *           application/json:
- *             schema:
- *               type: object
- *               properties:
- *                 results:
- *                   type: array
- *                   items:
- *                     $ref: '#/components/schemas/Rss'
- *                 page:
- *                   type: integer
- *                   example: 1
- *                 limit:
- *                   type: integer
- *                   example: 10
- *                 totalPages:
- *                   type: integer
- *                   example: 1
- *                 totalResults:
- *                   type: integer
- *                   example: 1
- *       "401":
- *         $ref: '#/components/responses/Unauthorized'
- *       "403":
- *         $ref: '#/components/responses/Forbidden'
- *
- *   post:
- *     summary: Proxy get news feed
- *     description: Proxy get news feed.
- *     tags: [News]
- *     requestBody:
- *       required: true
- *       content:
- *         application/json:
- *           schema:
- *             type: object
- *             required:
- *               - proxy
- *             properties:
- *               proxy:
- *                 type: string
- *             example:
- *               proxy: https://vnexpress.net/rss/tin-moi-nhat.rss
- *     responses:
- *       "200":
- *         description: OK
- *         content:
- *           application/json:
- *             schema:
- *               type: object
- *               properties:
- *                 results:
- *                   type: array
- *                   items:
- *                     $ref: '#/components/schemas/NewsFeed'
- *                 title:
- *                   type: string
- *                   example: title
- *                 pubDate:
- *                   type: string
- *                   example: pubDate
- *                 generator:
- *                   type: string
- *                   example: generator
- *                 link:
- *                   type: string
- *                   example: link
- *       "401":
- *         $ref: '#/components/responses/Unauthorized'
- *       "403":
- *         $ref: '#/components/responses/Forbidden'
- */
-
-/**
- * @swagger
- * /news/feed/source:
+ * /news/source:
  *   get:
  *     summary: Get rss source
  *     description: Get rss source.
@@ -148,17 +42,10 @@ module.exports = router;
  *         content:
  *           application/json:
  *             schema:
- *               type: object
- *               properties:
- *                 results:
- *                   type: array
- *                   items:
- *                     name:
- *                       type: string
- *                       example: bbc
- *                     source:
- *                       type: string
- *                       example: bbc
+ *               type: array
+ *               items:
+ *                 type: string
+ *                 example: vnexpress
  *       "401":
  *         $ref: '#/components/responses/Unauthorized'
  *       "403":
@@ -170,7 +57,7 @@ module.exports = router;
  * /news/rss:
  *   post:
  *     summary: Create a rss
- *     description: Rss.
+ *     description: Create a rss.
  *     tags: [News]
  *     security:
  *       - bearerAuth: []
@@ -182,12 +69,12 @@ module.exports = router;
  *             type: object
  *             required:
  *               - name
- *               - link
+ *               - url
  *               - source
  *             properties:
  *               name:
  *                 type: string
- *               link:
+ *               url:
  *                 type: string
  *                 format: link
  *                 description: must be unique
@@ -195,7 +82,7 @@ module.exports = router;
  *                 type: string
  *             example:
  *               name: Trang chủ
- *               link: https://vnexpress.net/rss/tin-moi-nhat.rss
+ *               url: https://vnexpress.net/rss/tin-moi-nhat.rss
  *               source: vnexpress
  *     responses:
  *       "201":
@@ -279,7 +166,7 @@ module.exports = router;
 
 /**
  * @swagger
- * /news/{id}:
+ * /news/rss/{id}:
  *   patch:
  *     summary: Update a rss news
  *     description: Update a rss news.
@@ -302,7 +189,7 @@ module.exports = router;
  *             properties:
  *               name:
  *                 type: string
- *               link:
+ *               url:
  *                 type: string
  *                 format: link
  *                 description: must be unique
@@ -310,7 +197,7 @@ module.exports = router;
  *                 type: string
  *             example:
  *               name: Trang chủ
- *               link: https://vnexpress.net/rss/tin-moi-nhat.rss
+ *               url: https://vnexpress.net/rss/tin-moi-nhat.rss
  *               source: vnexpress
  *     responses:
  *       "200":
@@ -318,7 +205,7 @@ module.exports = router;
  *         content:
  *           application/json:
  *             schema:
- *                $ref: '#/components/schemas/User'
+ *                $ref: '#/components/schemas/Rss'
  *       "400":
  *         $ref: '#/components/responses/DuplicateEmail'
  *       "401":
@@ -350,4 +237,111 @@ module.exports = router;
  *         $ref: '#/components/responses/Forbidden'
  *       "404":
  *         $ref: '#/components/responses/NotFound'
+ */
+
+/**
+ * @swagger
+ * /news/rss/editor:
+ *   get:
+ *     summary: Get editor choice rss
+ *     description: Everyone can retrieve editor choice rss.
+ *     tags: [News]
+ *     parameters:
+ *       - in: query
+ *         name: sortBy
+ *         schema:
+ *           type: string
+ *         description: sort by query in the form of field:desc/asc (ex. name:asc)
+ *       - in: query
+ *         name: limit
+ *         schema:
+ *           type: integer
+ *           minimum: 1
+ *         default: 10
+ *         description: Maximum number of rss
+ *       - in: query
+ *         name: page
+ *         schema:
+ *           type: integer
+ *           minimum: 1
+ *           default: 1
+ *         description: Page number
+ *     responses:
+ *       "200":
+ *         description: OK
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 results:
+ *                   type: array
+ *                   items:
+ *                     $ref: '#/components/schemas/Rss'
+ *                 page:
+ *                   type: integer
+ *                   example: 1
+ *                 limit:
+ *                   type: integer
+ *                   example: 10
+ *                 totalPages:
+ *                   type: integer
+ *                   example: 1
+ *                 totalResults:
+ *                   type: integer
+ *                   example: 1
+ *       "401":
+ *         $ref: '#/components/responses/Unauthorized'
+ *       "403":
+ *         $ref: '#/components/responses/Forbidden'
+ */
+
+/**
+ * @swagger
+ * /news/feed:
+ *   post:
+ *     summary: Proxy get news feed
+ *     description: Proxy get news feed.
+ *     tags: [News]
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required:
+ *               - proxy
+ *             properties:
+ *               proxy:
+ *                 type: string
+ *             example:
+ *               proxy: https://vnexpress.net/rss/tin-moi-nhat.rss
+ *     responses:
+ *       "200":
+ *         description: OK
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 items:
+ *                   type: array
+ *                   items:
+ *                     $ref: '#/components/schemas/Feed'
+ *                 title:
+ *                   type: string
+ *                   example: title
+ *                 pubDate:
+ *                   type: string
+ *                   example: pubDate
+ *                 generator:
+ *                   type: string
+ *                   example: generator
+ *                 link:
+ *                   type: string
+ *                   example: link
+ *       "401":
+ *         $ref: '#/components/responses/Unauthorized'
+ *       "403":
+ *         $ref: '#/components/responses/Forbidden'
  */

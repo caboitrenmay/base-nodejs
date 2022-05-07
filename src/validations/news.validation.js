@@ -19,7 +19,7 @@ const getRss = {
 
 const createRss = {
   body: Joi.object().keys({
-    link: Joi.string().required(),
+    url: Joi.string().required(),
     source: Joi.string().required(),
     name: Joi.string().required(),
     active: Joi.bool(),
@@ -33,7 +33,7 @@ const updateRss = {
   }),
   body: Joi.object()
     .keys({
-      link: Joi.string(),
+      url: Joi.string(),
       source: Joi.string(),
       name: Joi.string(),
       active: Joi.bool(),

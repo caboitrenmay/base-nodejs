@@ -2,11 +2,11 @@ const httpStatus = require('http-status');
 const pick = require('../utils/pick');
 const catchAsync = require('../utils/catchAsync');
 const { proxyService, rssService } = require('../services');
+const logger = require('../config/logger');
 
-const getNewsFeed = catchAsync(async (req, res) => {
-  const rssUrl = req.body.proxy;
-  const result = await proxyService.parseRss(rssUrl);
-  res.send(result);
+const getNewsSource = catchAsync(async (req, res) => {
+  const sources = await rssService.querySource();
+  res.send(sources);
 });
 
 const getEditorRss = catchAsync(async (req, res) => {
@@ -15,8 +15,7 @@ const getEditorRss = catchAsync(async (req, res) => {
     filter = { source: req.query.source };
   }
   filter = { ...filter, active: true };
-  // eslint-disable-next-line no-console
-  console.log('filter: ', filter);
+  logger.debug(`filter: ${JSON.stringify(filter)}`);
   const options = pick(req.query, ['sortBy', 'limit', 'page']);
   const result = await rssService.queryRss(filter, options);
   res.send(result);
@@ -24,8 +23,7 @@ const getEditorRss = catchAsync(async (req, res) => {
 
 const getAllRss = catchAsync(async (req, res) => {
   const filter = pick(req.query, ['name', 'source']);
-  // eslint-disable-next-line no-console
-  console.log('filter: ', filter);
+  logger.debug(JSON.stringify(filter, null, 2));
   const options = pick(req.query, ['sortBy', 'limit', 'page']);
   const result = await rssService.queryRss(filter, options);
   res.send(result);
@@ -37,6 +35,7 @@ const createRss = catchAsync(async (req, res) => {
 });
 
 const updateRss = catchAsync(async (req, res) => {
+  logger.debug(`updateRss id: ${req.params.id} body: ${req.body}`);
   const rss = await rssService.updateRssById(req.params.id, req.body);
   res.send(rss);
 });
@@ -46,17 +45,22 @@ const deleteRss = catchAsync(async (req, res) => {
   res.status(httpStatus.NO_CONTENT).send();
 });
 
-const getFeedSource = catchAsync(async (req, res) => {
-  const sources = await rssService.querySource();
-  res.send(sources);
+const getNewsFeed = catchAsync(async (req, res) => {
+  const rssUrl = req.body.proxy;
+  const result = await proxyService.parseRss(rssUrl);
+  res.send(result);
+
+  // const result = await proxyService.parseRss(rssUrl);
+  // const array = result ? result.items || [] : [];
+  // res.send(array);
 });
 
 module.exports = {
-  getNewsFeed,
-  getEditorRss,
+  getNewsSource,
   getAllRss,
   createRss,
   updateRss,
   deleteRss,
-  getFeedSource,
+  getEditorRss,
+  getNewsFeed,
 };

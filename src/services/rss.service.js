@@ -1,6 +1,18 @@
 const httpStatus = require('http-status');
+const logger = require('../config/logger');
 const { Rss } = require('../models');
 const ApiError = require('../utils/ApiError');
+
+/**
+ * Query distinct source
+ * @returns {Promise<QueryResult>}
+ */
+const querySource = async () => {
+  const sources = await Rss.find({ active: true }).distinct('source');
+  logger.debug('News all source:');
+  logger.debug(sources);
+  return sources;
+};
 
 /**
  * Create a rss
@@ -8,8 +20,8 @@ const ApiError = require('../utils/ApiError');
  * @returns {Promise<Rss>}
  */
 const createRss = async (rssBody) => {
-  if (await Rss.isLinkTaken(rssBody.link)) {
-    throw new ApiError(httpStatus.BAD_REQUEST, 'Link already taken');
+  if (await Rss.isUrlTaken(rssBody.url)) {
+    throw new ApiError(httpStatus.BAD_REQUEST, 'Url already taken');
   }
   return Rss.create(rssBody);
 };
@@ -67,21 +79,11 @@ const deleteRssById = async (id) => {
   return rss;
 };
 
-/**
- * Query distinct source
- */
-const querySource = async () => {
-  const sources = await Rss.find({ active: true }).distinct('source');
-  // eslint-disable-next-line no-console
-  console.log('sources: ', sources);
-  return sources;
-};
-
 module.exports = {
-  createRss,
+  querySource,
   queryRss,
+  createRss,
   getRssById,
   updateRssById,
   deleteRssById,
-  querySource,
 };
