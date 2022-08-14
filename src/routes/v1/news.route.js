@@ -6,18 +6,35 @@ const auth = require('../../middlewares/auth');
 
 const router = express.Router();
 
+/**
+ * Lấy nguồn cung cấp rss.
+ */
 router.get('/source', newsController.getNewsSource);
 
+/**
+ * Admin Lấy và tạo rsss.
+ */
 router
   .route('/rss')
-  .get(auth(), newsController.getAllRss)
+  .get(newsController.getAllRss)
   .post(auth('manageUsers'), validate(newsValidation.createRss), newsController.createRss);
+
+/**
+ * Admin chỉnh sửa rss.
+ */
 router
   .route('/rss/:id')
   .patch(auth('manageUsers'), validate(newsValidation.updateRss), newsController.updateRss)
   .delete(auth('manageUsers'), validate(newsValidation.deleteRss), newsController.deleteRss);
+
+/**
+ * Lấy rss của biên tập.
+ */
 router.get('/rss/editor', newsController.getEditorRss);
 
+/**
+ * Lấy các feed của 1 rss.
+ */
 router.post('/feed', validate(newsValidation.getNewsFeed), newsController.getNewsFeed);
 
 module.exports = router;
