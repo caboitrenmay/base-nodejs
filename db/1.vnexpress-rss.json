@@ -1,0 +1,289 @@
+[{
+  "_id": {
+    "$oid": "62f8a0a25d7be8820125dcfc"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vnexpress.net/rss/tin-moi-nhat.rss",
+  "name": "Trang chủ ",
+  "source": "vnexpress",
+  "createdAt": {
+    "$date": "2022-08-14T07:13:38.038Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T16:51:19.399Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f8a0de5d7be8820125dd06"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vnexpress.net/rss/the-gioi.rss",
+  "name": "Thế giới ",
+  "source": "vnexpress",
+  "createdAt": {
+    "$date": "2022-08-14T07:14:38.610Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T16:51:31.919Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f8a0f95d7be8820125dd0a"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vnexpress.net/rss/thoi-su.rss",
+  "name": "\bThời sự ",
+  "source": "vnexpress",
+  "createdAt": {
+    "$date": "2022-08-14T07:15:05.110Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T16:52:06.006Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f8a11f5d7be8820125dd0e"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vnexpress.net/rss/kinh-doanh.rss",
+  "name": "Kinh doanh",
+  "source": "vnexpress",
+  "createdAt": {
+    "$date": "2022-08-14T07:15:43.994Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T16:52:18.554Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f8a1e65d7be8820125dd2b"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vnexpress.net/rss/suc-khoe.rss",
+  "name": "Sức khoẻ",
+  "source": "vnexpress",
+  "createdAt": {
+    "$date": "2022-08-14T07:19:02.078Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T16:52:29.418Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f8a1f75d7be8820125dd2f"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vnexpress.net/rss/gia-dinh.rss",
+  "name": "Gia đình",
+  "source": "vnexpress",
+  "createdAt": {
+    "$date": "2022-08-14T07:19:19.089Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T16:52:41.789Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f8a26a5d7be8820125dd33"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vnexpress.net/rss/du-lich.rss",
+  "name": "Du lịch",
+  "source": "vnexpress",
+  "createdAt": {
+    "$date": "2022-08-14T07:21:14.211Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T16:52:51.882Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f8a2835d7be8820125dd37"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vnexpress.net/rss/khoa-hoc.rss",
+  "name": "Khoa học",
+  "source": "vnexpress",
+  "createdAt": {
+    "$date": "2022-08-14T07:21:39.516Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T16:53:03.505Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630112af3cf310a3aff4bb4f"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vnexpress.net/rss/so-hoa.rss",
+  "name": "Số hoá",
+  "source": "vnexpress",
+  "createdAt": {
+    "$date": "2022-08-20T16:58:23.788Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T16:58:23.788Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630112bf3cf310a3aff4bb53"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vnexpress.net/rss/giai-tri.rss",
+  "name": "Giải trí",
+  "source": "vnexpress",
+  "createdAt": {
+    "$date": "2022-08-20T16:58:39.710Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T16:58:39.710Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630112cb3cf310a3aff4bb57"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vnexpress.net/rss/oto-xe-may.rss",
+  "name": "Xe",
+  "source": "vnexpress",
+  "createdAt": {
+    "$date": "2022-08-20T16:58:51.542Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T16:58:51.542Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630112d83cf310a3aff4bb5b"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vnexpress.net/rss/the-thao.rss",
+  "name": "Thể thao",
+  "source": "vnexpress",
+  "createdAt": {
+    "$date": "2022-08-20T16:59:04.910Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T16:59:04.910Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630112e83cf310a3aff4bb5f"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vnexpress.net/rss/y-kien.rss",
+  "name": "Ý kiến",
+  "source": "vnexpress",
+  "createdAt": {
+    "$date": "2022-08-20T16:59:20.503Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T16:59:20.503Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630114263cf310a3aff4bb6c"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vnexpress.net/rss/phap-luat.rss",
+  "name": "Pháp luật",
+  "source": "vnexpress",
+  "createdAt": {
+    "$date": "2022-08-20T17:04:38.914Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:04:38.914Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630114343cf310a3aff4bb70"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vnexpress.net/rss/tam-su.rss",
+  "name": "Tâm sự",
+  "source": "vnexpress",
+  "createdAt": {
+    "$date": "2022-08-20T17:04:52.797Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:04:52.797Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630114423cf310a3aff4bb74"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vnexpress.net/rss/giao-duc.rss",
+  "name": "Giáo dục",
+  "source": "vnexpress",
+  "createdAt": {
+    "$date": "2022-08-20T17:05:06.212Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:05:06.212Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301144e3cf310a3aff4bb78"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vnexpress.net/rss/cuoi.rss",
+  "name": "Cười",
+  "source": "vnexpress",
+  "createdAt": {
+    "$date": "2022-08-20T17:05:18.059Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:05:18.059Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301146f3cf310a3aff4bb80"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vnexpress.net/rss/tin-noi-bat.rss",
+  "name": "Tin nổi bật",
+  "source": "vnexpress",
+  "createdAt": {
+    "$date": "2022-08-20T17:05:51.115Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:05:51.115Z"
+  },
+  "__v": 0
+}]

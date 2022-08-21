@@ -1,0 +1,385 @@
+[{
+  "_id": {
+    "$oid": "6301380b391f09b111f4dad0"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cafebiz.vn/rss/home.rss",
+  "name": "Trang chủ",
+  "source": "cafebiz",
+  "createdAt": {
+    "$date": "2022-08-20T19:37:47.176Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T19:46:00.227Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301381f391f09b111f4dada"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cafebiz.vn/rss/xa-hoi.rss",
+  "name": "Xã hội",
+  "source": "cafebiz",
+  "createdAt": {
+    "$date": "2022-08-20T19:38:07.764Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T19:45:50.384Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d192391f09b111f4dc85"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cafebiz.vn/rss/vi-mo.rss",
+  "name": "Kinh tế vĩ mô",
+  "source": "cafebiz",
+  "createdAt": {
+    "$date": "2022-08-21T06:32:50.953Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:32:50.953Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d1ad391f09b111f4dc89"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cafebiz.vn/rss/cau-chuyen-kinh-doanh.rss",
+  "name": "Kinh doanh",
+  "source": "cafebiz",
+  "createdAt": {
+    "$date": "2022-08-21T06:33:17.443Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:33:17.443Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d1b9391f09b111f4dc8d"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cafebiz.vn/rss/cong-nghe.rss",
+  "name": "Công nghệ",
+  "source": "cafebiz",
+  "createdAt": {
+    "$date": "2022-08-21T06:33:29.350Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:33:29.350Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d1c5391f09b111f4dc91"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cafebiz.vn/rss/song.rss",
+  "name": "Sống",
+  "source": "cafebiz",
+  "createdAt": {
+    "$date": "2022-08-21T06:33:41.013Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:33:41.013Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d227391f09b111f4dc98"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cafebiz.vn/rss/tin-tuc.rss",
+  "name": "Tin tức",
+  "source": "cafebiz",
+  "createdAt": {
+    "$date": "2022-08-21T06:35:19.800Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:35:19.800Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d233391f09b111f4dc9c"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cafebiz.vn/rss/phap-luat.rss",
+  "name": "Pháp luật",
+  "source": "cafebiz",
+  "createdAt": {
+    "$date": "2022-08-21T06:35:31.723Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:35:31.723Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d2e0391f09b111f4dcb2"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cafebiz.vn/rss/chinh-sach.rss",
+  "name": "Chính sách",
+  "source": "cafebiz",
+  "createdAt": {
+    "$date": "2022-08-21T06:38:24.263Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:38:24.263Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d2f0391f09b111f4dcb6"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cafebiz.vn/rss/bat-dong-san.rss",
+  "name": "Bất động sản",
+  "source": "cafebiz",
+  "createdAt": {
+    "$date": "2022-08-21T06:38:40.229Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:38:40.229Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d300391f09b111f4dcba"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cafebiz.vn/rss/tai-chinh.rss",
+  "name": "Tài chính",
+  "source": "cafebiz",
+  "createdAt": {
+    "$date": "2022-08-21T06:38:56.570Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:38:56.570Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d311391f09b111f4dcbe"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cafebiz.vn/rss/startup.rss",
+  "name": "Startup",
+  "source": "cafebiz",
+  "createdAt": {
+    "$date": "2022-08-21T06:39:13.793Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:39:13.793Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d31e391f09b111f4dcc2"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cafebiz.vn/rss/quan-tri.rss",
+  "name": "Quản trị",
+  "source": "cafebiz",
+  "createdAt": {
+    "$date": "2022-08-21T06:39:26.455Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:39:26.455Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d32a391f09b111f4dcc6"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cafebiz.vn/rss/nghe-nghiep.rss",
+  "name": "Nghề nghiệp",
+  "source": "cafebiz",
+  "createdAt": {
+    "$date": "2022-08-21T06:39:38.301Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:39:38.301Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d339391f09b111f4dcca"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cafebiz.vn/rss/thuong-hieu.rss",
+  "name": "Thương hiệu",
+  "source": "cafebiz",
+  "createdAt": {
+    "$date": "2022-08-21T06:39:53.613Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:39:53.613Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d346391f09b111f4dcce"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cafebiz.vn/rss/nhan-vat.rss",
+  "name": "Nhân vật",
+  "source": "cafebiz",
+  "createdAt": {
+    "$date": "2022-08-21T06:40:06.807Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:40:06.807Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d352391f09b111f4dcd2"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cafebiz.vn/rss/welearn.rss",
+  "name": "We learn",
+  "source": "cafebiz",
+  "createdAt": {
+    "$date": "2022-08-21T06:40:18.278Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:40:18.278Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d35e391f09b111f4dcd6"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cafebiz.vn/rss/ho-so.rss",
+  "name": "Hồ sơ",
+  "source": "cafebiz",
+  "createdAt": {
+    "$date": "2022-08-21T06:40:30.817Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:40:30.817Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d375391f09b111f4dcda"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cafebiz.vn/rss/doanh-nghiep-cong-nghe.rss",
+  "name": "Doanh nghiệp công nghệ",
+  "source": "cafebiz",
+  "createdAt": {
+    "$date": "2022-08-21T06:40:53.023Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:40:53.023Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d381391f09b111f4dcde"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cafebiz.vn/rss/khoa-hoc.rss",
+  "name": "Khoa học",
+  "source": "cafebiz",
+  "createdAt": {
+    "$date": "2022-08-21T06:41:05.606Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:41:05.606Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d395391f09b111f4dce2"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cafebiz.vn/rss/quan-diem.rss",
+  "name": "Quan điểm ",
+  "source": "cafebiz",
+  "createdAt": {
+    "$date": "2022-08-21T06:41:25.442Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:41:25.442Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d3a3391f09b111f4dce6"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cafebiz.vn/rss/xem-doc.rss",
+  "name": "Xem - Đọc ",
+  "source": "cafebiz",
+  "createdAt": {
+    "$date": "2022-08-21T06:41:39.797Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:41:39.797Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d3b2391f09b111f4dcea"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cafebiz.vn/rss/ky-nang.rss",
+  "name": "Kỹ năng",
+  "source": "cafebiz",
+  "createdAt": {
+    "$date": "2022-08-21T06:41:54.610Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:41:54.610Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d3c0391f09b111f4dcee"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cafebiz.vn/rss/phong-cach.rss",
+  "name": "Phong cách",
+  "source": "cafebiz",
+  "createdAt": {
+    "$date": "2022-08-21T06:42:08.396Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:42:08.396Z"
+  },
+  "__v": 0
+}]

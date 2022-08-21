@@ -1,0 +1,337 @@
+[{
+  "_id": {
+    "$oid": "63013c95391f09b111f4db44"
+  },
+  "active": true,
+  "editorChoice": true,
+  "url": "https://baodautu.vn/trang-chu.rss",
+  "name": "Trang chủ",
+  "source": "baodautu",
+  "createdAt": {
+    "$date": "2022-08-20T19:57:09.639Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T08:05:24.273Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e758118604c1c57e7bf5"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://baodautu.vn/thoi-su.rss",
+  "name": "Thời sự",
+  "source": "baodautu",
+  "createdAt": {
+    "$date": "2022-08-21T08:05:44.355Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T08:05:44.355Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e788118604c1c57e7bf9"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://baodautu.vn/dau-tu.rss",
+  "name": "Đầu tư",
+  "source": "baodautu",
+  "createdAt": {
+    "$date": "2022-08-21T08:06:32.390Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T08:06:32.390Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e796118604c1c57e7bfd"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://baodautu.vn/doanh-nghiep.rss",
+  "name": "Doanh nghiệp",
+  "source": "baodautu",
+  "createdAt": {
+    "$date": "2022-08-21T08:06:46.257Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T08:06:46.257Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e7a5118604c1c57e7c01"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://baodautu.vn/doanh-nhan.rss",
+  "name": "Doanh nhân",
+  "source": "baodautu",
+  "createdAt": {
+    "$date": "2022-08-21T08:07:01.820Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T08:07:01.820Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e7b3118604c1c57e7c05"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://baodautu.vn/ngan-hang.rss",
+  "name": "Ngân hàng",
+  "source": "baodautu",
+  "createdAt": {
+    "$date": "2022-08-21T08:07:15.416Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T08:07:15.416Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e7d0118604c1c57e7c09"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://baodautu.vn/tai-chinh-chung-khoan.rss",
+  "name": "Tài chính - Chứng khoán",
+  "source": "baodautu",
+  "createdAt": {
+    "$date": "2022-08-21T08:07:44.608Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T08:07:44.608Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e7e2118604c1c57e7c0d"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://baodautu.vn/bat-dong-san.rss",
+  "name": "Bất động sản",
+  "source": "baodautu",
+  "createdAt": {
+    "$date": "2022-08-21T08:08:02.585Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T08:08:02.585Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e7f2118604c1c57e7c11"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://baodautu.vn/tieu-dung.rss",
+  "name": "Tiêu dùng",
+  "source": "baodautu",
+  "createdAt": {
+    "$date": "2022-08-21T08:08:18.143Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T08:08:18.143Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e804118604c1c57e7c15"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://baodautu.vn/o-to-xe-may.rss",
+  "name": "Ô tô - xe máy",
+  "source": "baodautu",
+  "createdAt": {
+    "$date": "2022-08-21T08:08:36.638Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T08:08:36.638Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e813118604c1c57e7c19"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://baodautu.vn/vien-thong--cong-nghe.rss",
+  "name": "Viễn thông - Công nghệ",
+  "source": "baodautu",
+  "createdAt": {
+    "$date": "2022-08-21T08:08:51.763Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T08:08:51.763Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e824118604c1c57e7c1d"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://baodautu.vn/dau-tu-va-cuoc-song.rss",
+  "name": "Đầu tư và cuộc sống",
+  "source": "baodautu",
+  "createdAt": {
+    "$date": "2022-08-21T08:09:08.592Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T08:09:08.592Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e871118604c1c57e7c28"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://baodautu.vn/diem-nong.rss",
+  "name": "Điểm nóng",
+  "source": "baodautu",
+  "createdAt": {
+    "$date": "2022-08-21T08:10:25.727Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T08:10:25.727Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e88b118604c1c57e7c30"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://baodautu.vn/khong-gian-khoi-nghiep.rss",
+  "name": "Không gian khởi nghiệp",
+  "source": "baodautu",
+  "createdAt": {
+    "$date": "2022-08-21T08:10:51.871Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T08:10:51.871Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e8b6118604c1c57e7c3c"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://baodautu.vn/dau-tu-phat-trien-ben-vung.rss",
+  "name": "Đầu tư Phát triển bền vững",
+  "source": "baodautu",
+  "createdAt": {
+    "$date": "2022-08-21T08:11:34.098Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T08:11:34.098Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e8c3118604c1c57e7c40"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://baodautu.vn/suc-khoe-doanh-nghiep.rss",
+  "name": "Sức khỏe doanh nghiệp",
+  "source": "baodautu",
+  "createdAt": {
+    "$date": "2022-08-21T08:11:47.623Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T08:11:47.623Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e8d0118604c1c57e7c44"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://baodautu.vn/quoc-te.rss",
+  "name": "Quốc tế",
+  "source": "baodautu",
+  "createdAt": {
+    "$date": "2022-08-21T08:12:00.461Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T08:12:00.461Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e8db118604c1c57e7c48"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://baodautu.vn/du-lich.rss",
+  "name": "Du lịch",
+  "source": "baodautu",
+  "createdAt": {
+    "$date": "2022-08-21T08:12:11.856Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T08:12:11.856Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e8e9118604c1c57e7c4c"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://baodautu.vn/diem-tin-noi-bat.rss",
+  "name": "Điểm tin nổi bật",
+  "source": "baodautu",
+  "createdAt": {
+    "$date": "2022-08-21T08:12:25.059Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T08:12:25.059Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e8f5118604c1c57e7c50"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://baodautu.vn/chuyen-doi-so--kinh-te-so.rss",
+  "name": "Chuyển đổi số - Kinh tế số",
+  "source": "baodautu",
+  "createdAt": {
+    "$date": "2022-08-21T08:12:37.875Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T08:12:37.875Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e902118604c1c57e7c54"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://baodautu.vn/y-te---suc-khoe.rss",
+  "name": "Y tế - Sức khỏe",
+  "source": "baodautu",
+  "createdAt": {
+    "$date": "2022-08-21T08:12:50.135Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T08:12:50.135Z"
+  },
+  "__v": 0
+}]

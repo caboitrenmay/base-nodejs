@@ -1,0 +1,337 @@
+[{
+  "_id": {
+    "$oid": "630115a953b99fa58c2df054"
+  },
+  "active": true,
+  "editorChoice": true,
+  "url": "https://cdn.24h.com.vn/upload/rss/trangchu24h.rss",
+  "name": "Trang chủ ",
+  "source": "24h",
+  "createdAt": {
+    "$date": "2022-08-20T17:11:05.321Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:11:05.321Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630115ea53b99fa58c2df064"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cdn.24h.com.vn/upload/rss/tintuctrongngay.rss",
+  "name": "Tin tức trong ngày",
+  "source": "24h",
+  "createdAt": {
+    "$date": "2022-08-20T17:12:10.278Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:12:21.087Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301160753b99fa58c2df06b"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cdn.24h.com.vn/upload/rss/bongda.rss",
+  "name": "Bóng đá",
+  "source": "24h",
+  "createdAt": {
+    "$date": "2022-08-20T17:12:39.104Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:12:39.104Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301163953b99fa58c2df075"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cdn.24h.com.vn/upload/rss/anninhhinhsu.rss",
+  "name": "An ninh - Hình sự",
+  "source": "24h",
+  "createdAt": {
+    "$date": "2022-08-20T17:13:29.874Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:13:29.874Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301165253b99fa58c2df079"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cdn.24h.com.vn/upload/rss/thoitrang.rss",
+  "name": "Thời trang",
+  "source": "24h",
+  "createdAt": {
+    "$date": "2022-08-20T17:13:54.736Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:13:54.736Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301166853b99fa58c2df07d"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cdn.24h.com.vn/upload/rss/thoitranghitech.rss",
+  "name": "Thời trang Hi-tech",
+  "source": "24h",
+  "createdAt": {
+    "$date": "2022-08-20T17:14:16.985Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:14:16.985Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301172453b99fa58c2df087"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cdn.24h.com.vn/upload/rss/taichinhbatdongsan.rss",
+  "name": "Tài chính – Bất động sản",
+  "source": "24h",
+  "createdAt": {
+    "$date": "2022-08-20T17:17:24.639Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:17:24.639Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301173753b99fa58c2df08b"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cdn.24h.com.vn/upload/rss/amthuc.rss",
+  "name": "Ẩm thực\t",
+  "source": "24h",
+  "createdAt": {
+    "$date": "2022-08-20T17:17:43.048Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:17:43.048Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301174953b99fa58c2df08f"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cdn.24h.com.vn/upload/rss/lamdep.rss",
+  "name": "Làm đẹp",
+  "source": "24h",
+  "createdAt": {
+    "$date": "2022-08-20T17:18:01.415Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:18:01.415Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301175d53b99fa58c2df093"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cdn.24h.com.vn/upload/rss/phim.rss",
+  "name": "Phim",
+  "source": "24h",
+  "createdAt": {
+    "$date": "2022-08-20T17:18:21.720Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:18:21.720Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301191853b99fa58c2df0a6"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cdn.24h.com.vn/upload/rss/giaoducduhoc.rss",
+  "name": "Giáo dục - du học",
+  "source": "24h",
+  "createdAt": {
+    "$date": "2022-08-20T17:25:44.091Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:25:44.091Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301192a53b99fa58c2df0aa"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cdn.24h.com.vn/upload/rss/bantrecuocsong.rss",
+  "name": "Bạn trẻ - Cuộc sống",
+  "source": "24h",
+  "createdAt": {
+    "$date": "2022-08-20T17:26:02.187Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:26:02.187Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301193953b99fa58c2df0ae"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cdn.24h.com.vn/upload/rss/canhacmtv.rss",
+  "name": "Ca nhạc - MTV",
+  "source": "24h",
+  "createdAt": {
+    "$date": "2022-08-20T17:26:17.086Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:26:17.086Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301194953b99fa58c2df0b2"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cdn.24h.com.vn/upload/rss/thethao.rss",
+  "name": "Thể thao",
+  "source": "24h",
+  "createdAt": {
+    "$date": "2022-08-20T17:26:33.276Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:26:33.276Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301195853b99fa58c2df0b6"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cdn.24h.com.vn/upload/rss/phithuongkyquac.rss",
+  "name": "Phi thường - kỳ quặc",
+  "source": "24h",
+  "createdAt": {
+    "$date": "2022-08-20T17:26:48.335Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:26:48.335Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301196553b99fa58c2df0ba"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cdn.24h.com.vn/upload/rss/congnghethongtin.rss",
+  "name": "Công nghệ thông tin",
+  "source": "24h",
+  "createdAt": {
+    "$date": "2022-08-20T17:27:01.905Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:27:01.905Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301197753b99fa58c2df0be"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cdn.24h.com.vn/upload/rss/oto.rss",
+  "name": "Ô tô",
+  "source": "24h",
+  "createdAt": {
+    "$date": "2022-08-20T17:27:19.927Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:27:19.927Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301198753b99fa58c2df0c2"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cdn.24h.com.vn/upload/rss/thitruongtieudung.rss",
+  "name": "Thị trường - Tiêu dùng",
+  "source": "24h",
+  "createdAt": {
+    "$date": "2022-08-20T17:27:35.431Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:34:23.224Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301199953b99fa58c2df0c6"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cdn.24h.com.vn/upload/rss/dulich24h.rss",
+  "name": "Du lịch",
+  "source": "24h",
+  "createdAt": {
+    "$date": "2022-08-20T17:27:53.989Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:27:53.989Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630119a853b99fa58c2df0ca"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cdn.24h.com.vn/upload/rss/suckhoedoisong.rss",
+  "name": "Sức khỏe đời sống",
+  "source": "24h",
+  "createdAt": {
+    "$date": "2022-08-20T17:28:08.223Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:28:08.223Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630119b753b99fa58c2df0ce"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://cdn.24h.com.vn/upload/rss/cuoi24h.rss",
+  "name": "Cười 24h",
+  "source": "24h",
+  "createdAt": {
+    "$date": "2022-08-20T17:28:23.696Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T17:28:23.696Z"
+  },
+  "__v": 0
+}]

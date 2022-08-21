@@ -1,0 +1,241 @@
+[{
+  "_id": {
+    "$oid": "630133d9391f09b111f4da59"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://eva.vn/rss/rss.php",
+  "name": "Trang chủ",
+  "source": "eva",
+  "createdAt": {
+    "$date": "2022-08-20T19:19:53.460Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T19:19:53.460Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630133f9391f09b111f4da66"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://eva.vn/rss/rss.php/73",
+  "name": "Tin tức",
+  "source": "eva",
+  "createdAt": {
+    "$date": "2022-08-20T19:20:25.172Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T19:20:25.172Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301344e391f09b111f4da70"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://eva.vn/rss/rss.php/66",
+  "name": "Eva tám\t",
+  "source": "eva",
+  "createdAt": {
+    "$date": "2022-08-20T19:21:50.858Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:23:22.919Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301cf67391f09b111f4dc38"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://eva.vn/rss/rss.php/58",
+  "name": "Làm đẹp\t",
+  "source": "eva",
+  "createdAt": {
+    "$date": "2022-08-21T06:23:35.390Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:23:35.390Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301cf76391f09b111f4dc3c"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://eva.vn/rss/rss.php/20",
+  "name": "Giải trí\t",
+  "source": "eva",
+  "createdAt": {
+    "$date": "2022-08-21T06:23:50.854Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:23:50.854Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301cf8a391f09b111f4dc40"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://eva.vn/rss/rss.php/36",
+  "name": "Thời trang\t",
+  "source": "eva",
+  "createdAt": {
+    "$date": "2022-08-21T06:24:10.007Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:24:10.007Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301cf98391f09b111f4dc44"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://eva.vn/rss/rss.php/85",
+  "name": "Bà bầu\t",
+  "source": "eva",
+  "createdAt": {
+    "$date": "2022-08-21T06:24:24.011Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:24:24.011Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301cfa4391f09b111f4dc48"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://eva.vn/rss/rss.php/10",
+  "name": "Làm mẹ\t",
+  "source": "eva",
+  "createdAt": {
+    "$date": "2022-08-21T06:24:36.802Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:24:36.802Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301cfb0391f09b111f4dc4c"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://eva.vn/rss/rss.php/3",
+  "name": "Làm vợ\t",
+  "source": "eva",
+  "createdAt": {
+    "$date": "2022-08-21T06:24:48.808Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:24:48.808Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301cfbf391f09b111f4dc50"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://eva.vn/rss/rss.php/162",
+  "name": "Bếp Eva\t",
+  "source": "eva",
+  "createdAt": {
+    "$date": "2022-08-21T06:25:03.209Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:25:03.209Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301cfce391f09b111f4dc54"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://eva.vn/rss/rss.php/169",
+  "name": "Nhà đẹp\t",
+  "source": "eva",
+  "createdAt": {
+    "$date": "2022-08-21T06:25:18.296Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:25:18.296Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301cfeb391f09b111f4dc58"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://eva.vn/rss/rss.php/131",
+  "name": "Sức khỏe\t",
+  "source": "eva",
+  "createdAt": {
+    "$date": "2022-08-21T06:25:47.352Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:25:47.352Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301cffb391f09b111f4dc5c"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://eva.vn/rss/rss.php/430",
+  "name": "Alo bác sĩ\t",
+  "source": "eva",
+  "createdAt": {
+    "$date": "2022-08-21T06:26:03.796Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:26:03.796Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d008391f09b111f4dc60"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://eva.vn/rss/rss.php/40",
+  "name": "Xem ăn chơi\t",
+  "source": "eva",
+  "createdAt": {
+    "$date": "2022-08-21T06:26:16.788Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:26:16.788Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d014391f09b111f4dc64"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://eva.vn/rss/rss.php/157",
+  "name": "Clip Eva\t",
+  "source": "eva",
+  "createdAt": {
+    "$date": "2022-08-21T06:26:28.888Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:26:28.888Z"
+  },
+  "__v": 0
+}]

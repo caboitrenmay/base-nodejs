@@ -16,7 +16,7 @@ router.get('/source', newsController.getNewsSource);
  */
 router
   .route('/rss')
-  .get(newsController.getAllRss)
+  .get(auth('manageUsers'), newsController.getAllRss)
   .post(auth('manageUsers'), validate(newsValidation.createRss), newsController.createRss);
 
 /**
@@ -265,24 +265,10 @@ module.exports = router;
  *     tags: [News]
  *     parameters:
  *       - in: query
- *         name: sortBy
+ *         name: source
  *         schema:
  *           type: string
- *         description: sort by query in the form of field:desc/asc (ex. name:asc)
- *       - in: query
- *         name: limit
- *         schema:
- *           type: integer
- *           minimum: 1
- *         default: 10
- *         description: Maximum number of rss
- *       - in: query
- *         name: page
- *         schema:
- *           type: integer
- *           minimum: 1
- *           default: 1
- *         description: Page number
+ *         description: rss source
  *     responses:
  *       "200":
  *         description: OK

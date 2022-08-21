@@ -1,0 +1,417 @@
+[{
+  "_id": {
+    "$oid": "6301336b391f09b111f4da40"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/1.rss",
+  "name": "Trang chủ",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-20T19:18:03.162Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T19:18:03.162Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301b98f391f09b111f4db9e"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/172.rss",
+  "name": "Bóng đá Anh",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-21T04:50:23.913Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T04:50:23.913Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301b9a3391f09b111f4dba2"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/180.rss",
+  "name": "Bóng đá Tây Ban Nha",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-21T04:50:43.430Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T04:50:43.430Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301b9b2391f09b111f4dba6"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/184.rss",
+  "name": "Bóng đá Châu Âu",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-21T04:50:58.343Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T04:50:58.343Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301b9ce391f09b111f4dbaa"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/168.rss",
+  "name": "Bóng đá Việt Nam",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-21T04:51:26.048Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T04:51:26.048Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301b9e2391f09b111f4dbae"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/176.rss",
+  "name": "Bóng đá Italia",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-21T04:51:46.179Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T04:51:46.179Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301b9ed391f09b111f4dbb2"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/193.rss",
+  "name": "Bóng đá Đức",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-21T04:51:57.734Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T04:51:57.734Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301b9f7391f09b111f4dbb6"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/197.rss",
+  "name": "Bóng đá Pháp",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-21T04:52:07.917Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T04:52:07.917Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301ba43391f09b111f4dbc0"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/279.rss",
+  "name": "Tin nóng",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-21T04:53:23.159Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T04:53:23.159Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301ba51391f09b111f4dbc4"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/278.rss",
+  "name": "Sự kiện- Bình luận",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-21T04:53:37.550Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T04:53:37.550Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301ba5e391f09b111f4dbc8"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/187.rss",
+  "name": "Tin chuyển nhượng",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-21T04:53:50.116Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T04:53:50.116Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301ba6b391f09b111f4dbcc"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/188.rss",
+  "name": "Bóng đá Hậu trường",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-21T04:54:03.025Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T04:54:03.025Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301ba7c391f09b111f4dbd0"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/289.rss",
+  "name": "Trong nước",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-21T04:54:20.147Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T04:54:20.147Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301bab8391f09b111f4dbda"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/290.rss",
+  "name": "Quốc tế",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-21T04:55:20.464Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T04:55:20.464Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301bac6391f09b111f4dbde"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/189.rss",
+  "name": "Video Clips",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-21T04:55:34.464Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T04:55:34.464Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301bad3391f09b111f4dbe2"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/344.rss",
+  "name": "Nhận định",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-21T04:55:47.197Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T04:55:47.197Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301bae2391f09b111f4dbe6"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/286.rss",
+  "name": "Lịch thi đấu bóng đá",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-21T04:56:02.823Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T04:56:02.823Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301baeb391f09b111f4dbea"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/333.rss",
+  "name": "Kết quả bóng đá",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-21T04:56:11.784Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T04:59:39.359Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301baf7391f09b111f4dbee"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/287.rss",
+  "name": "Bảng xếp hạng bóng đá",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-21T04:56:23.673Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T04:56:23.673Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301bb02391f09b111f4dbf2"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/372.rss",
+  "name": "Trực tiếp bóng đá",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-21T04:56:34.109Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T04:56:34.109Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301bb1c391f09b111f4dbf6"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/489.rss",
+  "name": "U23 Châu Á",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-21T04:57:00.103Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T04:57:00.103Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301bb27391f09b111f4dbfa"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/488.rss",
+  "name": "Cúp C1",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-21T04:57:11.353Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T04:57:11.353Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301bb32391f09b111f4dbfe"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/291.rss",
+  "name": "V-League",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-21T04:57:22.765Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T04:57:22.765Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301bb3c391f09b111f4dc02"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/292.rss",
+  "name": "Đội tuyển Việt Nam",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-21T04:57:32.261Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T04:57:32.261Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301bb46391f09b111f4dc06"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/10942.rss",
+  "name": "U23 Việt Nam",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-21T04:57:42.068Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T04:57:42.068Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301bb51391f09b111f4dc0a"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongda24h.vn/RSS/tdp.rss",
+  "name": "Trên đường Pitch",
+  "source": "bongda24h",
+  "createdAt": {
+    "$date": "2022-08-21T04:57:53.589Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T04:57:53.589Z"
+  },
+  "__v": 0
+}]

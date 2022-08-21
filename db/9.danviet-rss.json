@@ -1,0 +1,465 @@
+[{
+  "_id": {
+    "$oid": "63013a48391f09b111f4db08"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/home.rss",
+  "name": "Trang chủ",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-20T19:47:20.599Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T19:47:20.599Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d79a391f09b111f4dd16"
+  },
+  "active": false,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/anh-clip-1111.rss",
+  "name": "Ảnh-Clip",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T06:58:34.815Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:35:23.639Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d7b5391f09b111f4dd1d"
+  },
+  "active": false,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/tin-tuc-1001.rss",
+  "name": "Tin tức",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T06:59:01.358Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:35:27.967Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d7cc391f09b111f4dd21"
+  },
+  "active": false,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/the-gioi-1007.rss",
+  "name": "Thế giới",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T06:59:24.752Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:14:50.132Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d7e2391f09b111f4dd25"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/nha-nong-1009.rss",
+  "name": "Nhà nông ",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T06:59:46.302Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T06:59:46.302Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d7f2391f09b111f4dd29"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/dan-viet-tro-chuyen-1141.rss",
+  "name": "Dân việt trò chuyện",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T07:00:02.802Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:00:02.802Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d804391f09b111f4dd2d"
+  },
+  "active": false,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/the-thao-1035.rss",
+  "name": "Thể thao",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T07:00:20.159Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:14:43.945Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d812391f09b111f4dd31"
+  },
+  "active": false,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/phap-luat-1008.rss",
+  "name": "Pháp luật",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T07:00:34.746Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:14:00.793Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d828391f09b111f4dd35"
+  },
+  "active": false,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/kinh-te-1004.rss",
+  "name": "Kinh tế",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T07:00:56.167Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:14:07.249Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d836391f09b111f4dd39"
+  },
+  "active": false,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/giao-duc-1196.rss",
+  "name": "Giáo Dục",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T07:01:10.603Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:14:58.828Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d841391f09b111f4dd3d"
+  },
+  "active": false,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/doi-song-1190.rss",
+  "name": "Đời sống",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T07:01:21.543Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:15:03.250Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d84f391f09b111f4dd41"
+  },
+  "active": false,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/van-hoa-giai-tri-1006.rss",
+  "name": "Văn hóa - Giải trí",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T07:01:35.498Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:15:08.517Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d862391f09b111f4dd45"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/ban-doc-1043.rss",
+  "name": "Bạn đọc",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T07:01:54.427Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:01:54.427Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d94b391f09b111f4dd56"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/o-to-xe-may-1034.rss",
+  "name": "Ô tô - Xe máy ",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T07:05:47.866Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:05:47.866Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d958391f09b111f4dd5a"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/doanh-nghiep-1048.rss",
+  "name": "Doanh nghiệp",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T07:06:00.221Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:06:00.221Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d970391f09b111f4dd62"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/du-lich-1097.rss",
+  "name": "Du lịch",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T07:06:24.135Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:06:24.135Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d981391f09b111f4dd66"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/dong-tay-kim-co-1116.rss",
+  "name": "Đông Tây - Kim Cổ",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T07:06:41.046Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:06:41.046Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d98b391f09b111f4dd6a"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/gia-dinh-1023.rss",
+  "name": "Gia đình",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T07:06:51.905Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:06:51.905Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d9a7391f09b111f4dd72"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/chuyen-dong-so-1218.rss",
+  "name": "Chuyển động số",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T07:07:19.184Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:07:19.184Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301d9b3391f09b111f4dd76"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/doc-sach-cung-ban-1160.rss",
+  "name": "Đọc sách cùng bạn",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T07:07:31.946Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:07:31.946Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301daaa391f09b111f4dda7"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/ke-chuyen-lang-1161.rss",
+  "name": "Kể chuyện làng",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T07:11:38.505Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:11:38.505Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301dab8391f09b111f4ddab"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/chuyen-dong-sai-gon-1264.rss",
+  "name": "Chuyển động Sài Gòn",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T07:11:52.554Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:11:52.554Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301dac5391f09b111f4ddaf"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/tam-hon-lang-viet-1208.rss",
+  "name": "Tâm hồn làng Việt ",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T07:12:05.278Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:32:24.432Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301dadf391f09b111f4ddb3"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/ha-noi-hom-nay-1209.rss",
+  "name": "Hà Nội hôm nay",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T07:12:31.358Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:32:40.497Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301daea391f09b111f4ddb7"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/hoi-nong-dan-1225.rss",
+  "name": "Hội nông dân ",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T07:12:42.702Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:33:18.570Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301daf6391f09b111f4ddbb"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/nhip-cau-nhan-ai-1270.rss",
+  "name": "Nhịp cầu nhân ái",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T07:12:54.128Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:33:26.963Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301db01391f09b111f4ddbf"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/giam-ngheo-nong-thon-1279.rss",
+  "name": "Giảm nghèo nông thôn",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T07:13:05.800Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:33:35.751Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301db0d391f09b111f4ddc3"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/chuyen-trang-media-1168.rss",
+  "name": "Chuyên trang Media",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T07:13:17.644Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:33:43.685Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301db18391f09b111f4ddc7"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://danviet.vn/rss/the-gioi-tiep-thi-1232.rss",
+  "name": "Thế giới tiếp thị",
+  "source": "danviet",
+  "createdAt": {
+    "$date": "2022-08-21T07:13:28.215Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:33:52.233Z"
+  },
+  "__v": 0
+}]

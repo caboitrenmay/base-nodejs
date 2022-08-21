@@ -1,0 +1,177 @@
+[{
+  "_id": {
+    "$oid": "62f8a7b7d85d8d88fee92a00"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongdaplus.vn/rss/bong-da-viet-nam.rss",
+  "name": "bóng đá Việt Nam ",
+  "source": "bongdaplus",
+  "createdAt": {
+    "$date": "2022-08-14T07:43:51.773Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:26:25.399Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f8a7e2d85d8d88fee92a16"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongdaplus.vn/rss/bong-da-anh.rss",
+  "name": "bóng đá Anh",
+  "source": "bongdaplus",
+  "createdAt": {
+    "$date": "2022-08-14T07:44:34.945Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:26:39.748Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301277282e1b5a975c0d530"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongdaplus.vn/rss/bong-da-tay-ban-nha.rss",
+  "name": "bóng đá TBN",
+  "source": "bongdaplus",
+  "createdAt": {
+    "$date": "2022-08-20T18:26:58.117Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:26:58.117Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301278a82e1b5a975c0d534"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongdaplus.vn/rss/bong-da-phap.rss",
+  "name": "bóng đá Pháp",
+  "source": "bongdaplus",
+  "createdAt": {
+    "$date": "2022-08-20T18:27:22.459Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:27:22.459Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301279c82e1b5a975c0d538"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongdaplus.vn/rss/bong-da-y.rss",
+  "name": "bóng đá Ý",
+  "source": "bongdaplus",
+  "createdAt": {
+    "$date": "2022-08-20T18:27:40.209Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:27:40.209Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630127ae82e1b5a975c0d53c"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongdaplus.vn/rss/bong-da-duc.rss",
+  "name": "bóng đá Đức",
+  "source": "bongdaplus",
+  "createdAt": {
+    "$date": "2022-08-20T18:27:58.816Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:27:58.816Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630127d082e1b5a975c0d540"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongdaplus.vn/rss/champions-league-cup-c1.rss",
+  "name": "C1",
+  "source": "bongdaplus",
+  "createdAt": {
+    "$date": "2022-08-20T18:28:32.763Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:28:32.763Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630127f282e1b5a975c0d544"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongdaplus.vn/rss/tin-chuyen-nhuong.rss",
+  "name": "Chuyển nhượng",
+  "source": "bongdaplus",
+  "createdAt": {
+    "$date": "2022-08-20T18:29:06.878Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:29:06.878Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301280382e1b5a975c0d548"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongdaplus.vn/rss/hau-truong-bong-da.rss",
+  "name": "Hậu trường",
+  "source": "bongdaplus",
+  "createdAt": {
+    "$date": "2022-08-20T18:29:23.208Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:29:23.208Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301284a82e1b5a975c0d54c"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongdaplus.vn/rss/europa-league.rss",
+  "name": "C2",
+  "source": "bongdaplus",
+  "createdAt": {
+    "$date": "2022-08-20T18:30:34.138Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:30:34.138Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301285582e1b5a975c0d550"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://bongdaplus.vn/rss/tennis.rss",
+  "name": "Tennis",
+  "source": "bongdaplus",
+  "createdAt": {
+    "$date": "2022-08-20T18:30:45.861Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:30:45.861Z"
+  },
+  "__v": 0
+}]

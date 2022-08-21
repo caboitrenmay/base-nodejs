@@ -1,0 +1,289 @@
+[{
+  "_id": {
+    "$oid": "63012a807eef65adc95ea035"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://nld.com.vn/tin-moi-nhat.rss",
+  "name": " Trang chủ",
+  "source": "nld",
+  "createdAt": {
+    "$date": "2022-08-20T18:40:00.799Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:40:00.799Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63012b117eef65adc95ea045"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://nld.com.vn/thoi-su.rss",
+  "name": "Thời sự",
+  "source": "nld",
+  "createdAt": {
+    "$date": "2022-08-20T18:42:25.614Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:42:25.614Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63012c9a7eef65adc95ea097"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://nld.com.vn/cong-doan.rss",
+  "name": "Công đoàn",
+  "source": "nld",
+  "createdAt": {
+    "$date": "2022-08-20T18:48:58.979Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:48:58.979Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63012cad7eef65adc95ea09b"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://nld.com.vn/ban-doc.rss",
+  "name": "Bạn đọc",
+  "source": "nld",
+  "createdAt": {
+    "$date": "2022-08-20T18:49:17.907Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:49:17.907Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63012cbe7eef65adc95ea09f"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://nld.com.vn/kinh-te.rss",
+  "name": "Kinh tế",
+  "source": "nld",
+  "createdAt": {
+    "$date": "2022-08-20T18:49:34.089Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:49:34.089Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63012cda7eef65adc95ea0a3"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://nld.com.vn/suc-khoe.rss",
+  "name": "Sức khỏe",
+  "source": "nld",
+  "createdAt": {
+    "$date": "2022-08-20T18:50:02.685Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:50:02.685Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63012cea7eef65adc95ea0a7"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://nld.com.vn/giao-duc-khoa-hoc.rss",
+  "name": "Giáo dục",
+  "source": "nld",
+  "createdAt": {
+    "$date": "2022-08-20T18:50:18.974Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:50:18.974Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63012d007eef65adc95ea0ab"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://nld.com.vn/phap-luat.rss",
+  "name": "Pháp luật",
+  "source": "nld",
+  "createdAt": {
+    "$date": "2022-08-20T18:50:40.583Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:50:40.583Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63012e227eef65adc95ea0cd"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://nld.com.vn/giai-tri.rss",
+  "name": "Giải trí",
+  "source": "nld",
+  "createdAt": {
+    "$date": "2022-08-20T18:55:30.610Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:55:30.610Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63012e357eef65adc95ea0d1"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://nld.com.vn/the-thao.rss",
+  "name": "Thể thao",
+  "source": "nld",
+  "createdAt": {
+    "$date": "2022-08-20T18:55:49.492Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:55:49.492Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63012e487eef65adc95ea0d5"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://nld.com.vn/cong-nghe.rss",
+  "name": "Công nghệ",
+  "source": "nld",
+  "createdAt": {
+    "$date": "2022-08-20T18:56:08.428Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:56:08.428Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63012e5f7eef65adc95ea0d9"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://nld.com.vn/du-lich-xanh.rss",
+  "name": "Du lịch xanh",
+  "source": "nld",
+  "createdAt": {
+    "$date": "2022-08-20T18:56:31.187Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:56:31.187Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63012e707eef65adc95ea0dd"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://nld.com.vn/ly-tuong-song.rss",
+  "name": "Lý tưởng sống",
+  "source": "nld",
+  "createdAt": {
+    "$date": "2022-08-20T18:56:48.682Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:56:48.682Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63012e827eef65adc95ea0e1"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://nld.com.vn/noi-thang.rss",
+  "name": "Nói thẳng",
+  "source": "nld",
+  "createdAt": {
+    "$date": "2022-08-20T18:57:06.568Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:57:06.568Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63012e967eef65adc95ea0e5"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://nld.com.vn/tin-doc-quyen.rss",
+  "name": "Tin độc quyền",
+  "source": "nld",
+  "createdAt": {
+    "$date": "2022-08-20T18:57:26.204Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:57:26.204Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63012eb47eef65adc95ea0e9"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://nld.com.vn/dia-oc.rss",
+  "name": "Địa ốc",
+  "source": "nld",
+  "createdAt": {
+    "$date": "2022-08-20T18:57:56.397Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:57:56.397Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63012ed27eef65adc95ea0ed"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://nld.com.vn/chuyen-trang-phu-nu.rss",
+  "name": "Phụ nữ",
+  "source": "nld",
+  "createdAt": {
+    "$date": "2022-08-20T18:58:26.761Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:58:26.761Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63012eea7eef65adc95ea0f1"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://nld.com.vn/thi-truong.rss",
+  "name": "Thị trường",
+  "source": "nld",
+  "createdAt": {
+    "$date": "2022-08-20T18:58:50.418Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T18:58:50.418Z"
+  },
+  "__v": 0
+}]

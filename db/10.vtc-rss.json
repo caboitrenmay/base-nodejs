@@ -1,0 +1,257 @@
+[{
+  "_id": {
+    "$oid": "63013b01391f09b111f4db18"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vtc.vn/rss/feed.rss",
+  "name": "Trang chủ",
+  "source": "vtc",
+  "createdAt": {
+    "$date": "2022-08-20T19:50:25.104Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-20T19:50:25.104Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e39f118604c1c57e7b7d"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vtc.vn/rss/doanh-nghiep-doanh-nhan.rss",
+  "name": "Doanh Nghiệp - Doanh Nhân",
+  "source": "vtc",
+  "createdAt": {
+    "$date": "2022-08-21T07:49:51.306Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:49:51.306Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e3ac118604c1c57e7b81"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vtc.vn/rss/thoi-su.rss",
+  "name": "Thời Sự",
+  "source": "vtc",
+  "createdAt": {
+    "$date": "2022-08-21T07:50:04.965Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:50:04.965Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e3bd118604c1c57e7b85"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vtc.vn/rss/kinh-te.rss",
+  "name": "Kinh tế",
+  "source": "vtc",
+  "createdAt": {
+    "$date": "2022-08-21T07:50:21.582Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:50:21.582Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e3cc118604c1c57e7b89"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vtc.vn/rss/the-gioi.rss",
+  "name": "Thế giới",
+  "source": "vtc",
+  "createdAt": {
+    "$date": "2022-08-21T07:50:36.405Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:50:36.405Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e3da118604c1c57e7b8d"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vtc.vn/rss/truyen-hinh.rss",
+  "name": "Truyền hình",
+  "source": "vtc",
+  "createdAt": {
+    "$date": "2022-08-21T07:50:50.235Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:50:50.235Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e462118604c1c57e7b94"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vtc.vn/rss/giao-duc.rss",
+  "name": "Giáo dục",
+  "source": "vtc",
+  "createdAt": {
+    "$date": "2022-08-21T07:53:06.066Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:53:06.066Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e469118604c1c57e7b98"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vtc.vn/rss/phap-luat.rss",
+  "name": "Pháp luật",
+  "source": "vtc",
+  "createdAt": {
+    "$date": "2022-08-21T07:53:13.980Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:53:13.980Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e475118604c1c57e7b9c"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vtc.vn/rss/phong-su-kham-pha.rss",
+  "name": "Phóng sự - khám phá",
+  "source": "vtc",
+  "createdAt": {
+    "$date": "2022-08-21T07:53:25.858Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:53:25.858Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e480118604c1c57e7ba0"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vtc.vn/rss/khoa-hoc-cong-nghe.rss",
+  "name": "Khoa học - Công nghệ",
+  "source": "vtc",
+  "createdAt": {
+    "$date": "2022-08-21T07:53:36.592Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:53:36.592Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e48a118604c1c57e7ba4"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vtc.vn/rss/bat-dong-san.rss",
+  "name": "Địa ốc - Bất động sản",
+  "source": "vtc",
+  "createdAt": {
+    "$date": "2022-08-21T07:53:46.814Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:53:46.814Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e49f118604c1c57e7ba8"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vtc.vn/rss/oto-xe-may.rss",
+  "name": "Ô tô xe máy",
+  "source": "vtc",
+  "createdAt": {
+    "$date": "2022-08-21T07:54:07.880Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:54:07.880Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e4ab118604c1c57e7bac"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vtc.vn/rss/van-hoa-giai-tri.rss",
+  "name": "Văn hóa - Giải trí",
+  "source": "vtc",
+  "createdAt": {
+    "$date": "2022-08-21T07:54:19.088Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:54:19.088Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e4b9118604c1c57e7bb0"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vtc.vn/rss/suc-khoe.rss",
+  "name": "Sức khỏe đời sống",
+  "source": "vtc",
+  "createdAt": {
+    "$date": "2022-08-21T07:54:33.656Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T07:54:33.656Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e4c4118604c1c57e7bb4"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vtc.vn/rss/the-thao.rss",
+  "name": "Thể thao",
+  "source": "vtc",
+  "createdAt": {
+    "$date": "2022-08-21T07:54:44.336Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T08:04:53.402Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6301e4ce118604c1c57e7bb8"
+  },
+  "active": true,
+  "editorChoice": false,
+  "url": "https://vtc.vn/rss/gioi-tre.rss",
+  "name": "Giới trẻ",
+  "source": "vtc",
+  "createdAt": {
+    "$date": "2022-08-21T07:54:54.319Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-21T08:04:49.710Z"
+  },
+  "__v": 0
+}]

@@ -40,6 +40,10 @@ const queryRss = async (filter, options) => {
   return rss;
 };
 
+const getRss = async (filter) => {
+  return Rss.find({ ...filter });
+};
+
 /**
  * Get rss by id
  * @param {ObjectId} id
@@ -82,6 +86,7 @@ const deleteRssById = async (id) => {
 module.exports = {
   querySource,
   queryRss,
+  getRss,
   createRss,
   getRssById,
   updateRssById,

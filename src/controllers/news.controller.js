@@ -10,14 +10,15 @@ const getNewsSource = catchAsync(async (req, res) => {
 });
 
 const getEditorRss = catchAsync(async (req, res) => {
-  let filter = { editorChoice: true };
+  let filter = {};
   if (req.query.source) {
     filter = { source: req.query.source };
+  } else {
+    filter = { editorChoice: true };
   }
   filter = { ...filter, active: true };
   logger.debug(`filter: ${JSON.stringify(filter)}`);
-  const options = pick(req.query, ['sortBy', 'limit', 'page']);
-  const result = await rssService.queryRss(filter, options);
+  const result = await rssService.getRss(filter);
   res.send(result);
 });
 
